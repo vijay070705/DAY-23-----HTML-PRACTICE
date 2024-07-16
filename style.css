@@ -1,0 +1,124 @@
+nav {
+    padding-bottom: 100px;
+    background-color: grey;
+    
+}
+
+.product {
+    border: 1px solid rgb(101, 88, 88);
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.nav-link {
+    color: aliceblue;
+    text-decoration: none;
+}
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: whitesmoke;
+    text-align: center;
+    padding: 5px 0;
+}
+
+form {
+    padding: 20px;
+}
+
+ul {
+    float: left;
+}
+
+ol {
+    float: right;
+}
+
+th,td {
+    border: 1px solid rgb(59, 59, 43);
+    padding: 8px;
+    text-align: left;
+
+}
+
+table {
+    border-collapse: collapse;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.one {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.non-stop {
+    border-radius: 10px;
+}
+
+a {
+    color: red;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.product {
+    background-color: rgb(115, 210, 196);
+}
+
+h2 {
+    text-align: center;
+}
+
+.product:hover {
+    box-shadow: 0 0 10px;
+
+}
+
+header {
+    background: linear-gradient( to right, rgb(208, 84, 105), #6c757d);
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+
+.product {
+    transition: transform 0.3s ease;
+}
+
+.product:hover {
+    transform: scale(1.01);
+}
+
+/* flexbox */
+
+.lkg-1 {
+    display: flex;
+}
+
+.lkg-1 table{
+    flex: 15;
+    
+}
+
+.lkg-1 ul {
+    flex: 1;
+}
+
+.lkg-1 ol {
+    flex: 1;
+}
+
+@media screen and (max-width: 767px) {
+    
+}
